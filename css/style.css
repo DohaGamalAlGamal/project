@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:PublicSans-Regular ;
+    src: url('../font/PublicSans-Regular.ttf');
+}
+@font-face {
+    font-family:PublicSans-Thin;
+    src: url('../font/PublicSans-Thin.ttf');
+}
+a{
+    text-decoration: none;
+}
+.contanier{
+    padding: 2% 5%;
+}
+.logo-link{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    padding-right: 20px;
+    color: #9597A5;
+    font-size: 14px;
+    font-family:PublicSans-Regular ;
+}
+.link:hover{
+    color: rgb(8, 8, 8);
+}
+.Request-Invite{
+    background-color: #2D314D;
+    color: #fff;
+    font-family: PublicSans-Thin;
+    border: none;
+    border-radius: 60px;
+    padding: 15px 30px;
+}
+.Request-Invite:hover{
+    background-color: rgb(221, 212, 212);
+}
+.head-img{
+    display: flex;
+    margin-top: 100px;
+}
+.head{
+    padding-bottom:5%;
+    color: #2D314D;
+    font-size: 56px;
+    font-family: PublicSans-Thin;
+}
+.para{
+    padding-bottom: 5%;
+    font-size: 18px;
+    color: #9597A5;
+    font-family:PublicSans-Regular ;
+}
+.head-advang{
+    color: #2D314D;
+    font-size: 40px;
+    font-family: PublicSans-Thin;
+}
+.advandges-easybank{
+    display: flex;
+    justify-content: space-evenly;
+}
+.advandge{
+    padding: 5px 4%;
+    text-align: justify;
+}
+.head-box{
+color: #2D314D;
+font-size: 24px;
+font-family: PublicSans-Thin;
+padding-top:20px;
+padding-bottom: 20px;
+}
+.Icon-invest{
+    font-size: 50px;
+    width: 50px;
+    color: #2D314D;
+    border: none;
+    border-radius: 40px;
+}
+.para-advandges{
+color: #9597A5;
+font-family:PublicSans-Regular ;
+font-size: 16px;
+}
+.taital-img{
+color: #2D314D;
+font-size: 40px;
+font-family: PublicSans-Thin;
+padding-bottom: 4%;
+}
+.lasta-img{
+display: flex;
+}
+.lasta{
+text-align: justify;
+}
+.taital-lasta{
+color: #9597A5;
+font-family:PublicSans-Regular ;
+font-size: 10px;
+padding-top: 10%;
+padding-bottom: 6%
+}
+.head-lesta{
+color: #2D314D;
+font-size: 16px;
+font-family:PublicSans-Thin;
+padding-right: 30%;
+padding-bottom: 5%;
+}
+.sbject-lasta{
+color: #9597A5;
+font-size: 13px;
+font-family:PublicSans-Regular ;
+padding-right: 30%;
+}
+.footer{
+    background-color: #2D314D;
+    margin-top:5% ;
+    padding: 2% 5%;
+}
+.logolink-footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.link-f{
+    padding-left: 20%;
+    padding-right: 30%;
+}
+.link-footer{
+    font-family:PublicSans-Regular ;
+    font-size: 15px;
+    color: #fff;
+    padding-right: 30px;
+}
+.icon{
+    padding-right: 9px;
+    color: #fff;
+}
+.button-footer{
+    background-color: #30C88F;
+    color: #fff;
+    font-size: 14px;
+    font-family:PublicSans-Thin;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
